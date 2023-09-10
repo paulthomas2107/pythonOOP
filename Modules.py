@@ -1,3 +1,7 @@
-from decimal import Decimal
+from decimal import Decimal as dec
 
-print(Decimal('3.5') + Decimal('3.5'))
+print(dec('3.5') + dec('3.5'))
+
+name: str = 'paul thomas'
+print(type(name))
+print(name.upper())
